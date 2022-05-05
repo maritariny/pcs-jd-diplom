@@ -35,6 +35,6 @@ public class Main {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
         String json = gson.toJson(list, listType);
-        return  json;
+        return json;
     }
 }
